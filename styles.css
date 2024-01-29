@@ -1,3 +1,15 @@
+@media screen and (max-width: 600px) {
+  .flandre {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media screen and (max-height: 800px) {
+  .flandre {
+    visibility: hidden;
+    display: none;
+  }
+}
 body {
     background: #1c1c1e;
     color: #ffffff;
@@ -13,7 +25,7 @@ body {
     user-select: none;
 }
 header {
-    color: #ffffff;
+    color: honeydew;
     font-size: 250%;
     font-family: "Afacad", sans-serif;
     margin-bottom: 0;
@@ -26,10 +38,9 @@ header {
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
 }
 .dot {
-    color: white;
+    color: honeydew;
 }
 .dotch {
     background-color: #ff2929;
@@ -37,7 +48,6 @@ header {
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
 }
 .prn {
     font-size: 25%;
@@ -46,51 +56,67 @@ header {
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
 }
 .text {
     font-size: 20px;
 }
-.flag {
+.flag1 {
     height: 30px;
     transform: translateY(20%);
 }
 .lh, .contact {
     font-size: 100%;
 }
-.dd0, .dd1 {
-    background-color: grey;
-    background-image: linear-gradient(45deg, slategrey, lightslategrey);
+.dd {
+    background-color: yellow;
+    background-image: linear-gradient(45deg, yellow, darkorange);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
     user-select: none;
 }
-.slash0, .slash1, .slash2 {
+.slash {
     color: gray;
+    user-select: none;
 }
  a:link {
     text-decoration: none;
-    color: white;
+    color: honeydew;
 }
 .socials a:link {
     text-decoration: none;
-    color: white;
+    color: honeydew;
 }
 a:visited {
     text-decoration: none;
-    color: white;
+    color: honeydew;
 }
 .socials a:hover {
     text-decoration: underline;
-    color: #ff5656;
+    color: #b60000;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition:all .4s;
+    -o-transition: all .4s;
 }
 .mail {
-    color: #ffffff;
+    color: honeydew;
 }
 .at {
     color: #989898;
     position: relative;
     top: 2px;
+}
+.mail:hover, .at:hover {
+    text-decoration: underline;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition:all .4s;
+    -o-transition: all .4s;
+}
+.flandre {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
 }
