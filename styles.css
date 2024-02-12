@@ -1,15 +1,33 @@
 @media screen and (max-width: 600px) {
-  .flandre {
-    visibility: hidden;
-    display: none;
-  }
+    .flandre {
+        visibility: hidden;
+        display: none;
+    }
 }
+
+@media screen and (max-width: 490px) {
+    .prn {
+        visibility: hidden;
+        display: none;
+    }
+
+    header {
+        display: inline-block;
+        max-height: 75px;
+    }
+
+    body {
+        line-height: 30px;
+    }
+}
+
 @media screen and (max-height: 800px) {
-  .flandre {
-    visibility: hidden;
-    display: none;
-  }
+    .flandre {
+        visibility: hidden;
+        display: none;
+    }
 }
+
 body {
     background: #1c1c1e;
     color: #ffffff;
@@ -19,11 +37,13 @@ body {
     font-family: "Jost", sans-serif;
     font-size: 140%;
 }
+
 .heart {
     height: 55px;
     transform: translateY(25%);
     user-select: none;
 }
+
 header {
     color: honeydew;
     font-size: 250%;
@@ -31,6 +51,7 @@ header {
     margin-bottom: 0;
     user-select: none;
 }
+
 .maeko {
     text-shadow: #818181;
     background-color: #bdbdbd;
@@ -39,9 +60,11 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .dot {
     color: honeydew;
 }
+
 .dotch {
     background-color: #ff2929;
     background-image: linear-gradient(45deg, #ff0000, #8d0000);
@@ -49,7 +72,9 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .prn {
+    display: inline-block;
     font-size: 25%;
     background-color: #ffffff;
     background-image: linear-gradient(45deg, #bbbbbb, #818181);
@@ -57,16 +82,21 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .text {
     font-size: 20px;
 }
+
 .flag1 {
     height: 30px;
     transform: translateY(20%);
 }
-.lh, .contact {
+
+.lh,
+.contact {
     font-size: 100%;
 }
+
 .dd {
     background-color: yellow;
     background-image: linear-gradient(45deg, yellow, darkorange);
@@ -75,45 +105,55 @@ header {
     -webkit-text-fill-color: transparent;
     user-select: none;
 }
+
 .slash {
     color: gray;
     user-select: none;
 }
- a:link {
+
+a:link {
     text-decoration: none;
     color: honeydew;
 }
+
 .socials a:link {
     text-decoration: none;
     color: honeydew;
 }
+
 a:visited {
     text-decoration: none;
     color: honeydew;
 }
+
 .socials a:hover {
     text-decoration: underline;
     color: #b60000;
     transition: all .4s;
     -moz-transition: all .4s;
-    -webkit-transition:all .4s;
+    -webkit-transition: all .4s;
     -o-transition: all .4s;
 }
+
 .mail {
     color: honeydew;
 }
+
 .at {
     color: #989898;
     position: relative;
     top: 2px;
 }
-.mail:hover, .at:hover {
+
+.mail:hover,
+.at:hover {
     text-decoration: underline;
     transition: all .4s;
     -moz-transition: all .4s;
-    -webkit-transition:all .4s;
+    -webkit-transition: all .4s;
     -o-transition: all .4s;
 }
+
 .flandre {
     position: fixed;
     bottom: 0;
