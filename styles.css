@@ -29,7 +29,7 @@
 }
 
 body {
-    background: #1c1c1e;
+    background: #1e1e1e;
     color: #ffffff;
     margin: 10%;
     padding: 5%;
@@ -66,8 +66,8 @@ header {
 }
 
 .dotch {
-    background-color: #ff2929;
-    background-image: linear-gradient(45deg, #ff0000, #8d0000);
+    background-color: #77cdcd;
+    background-image: linear-gradient(45deg, #a3c0f4, #118cda);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,8 +98,8 @@ header {
 }
 
 .dd {
-    background-color: yellow;
-    background-image: linear-gradient(45deg, yellow, darkorange);
+    background-color: #305e95;
+    background-image: linear-gradient(45deg, #3e7b7e, #00f5ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -128,7 +128,7 @@ a:visited {
 
 .socials a:hover {
     text-decoration: underline;
-    color: #b60000;
+    color: #a3c0f4;
     transition: all .4s;
     -moz-transition: all .4s;
     -webkit-transition: all .4s;
@@ -145,18 +145,19 @@ a:visited {
     top: 2px;
 }
 
-.mail:hover,
-.at:hover {
+.mail:hover{
     text-decoration: underline;
     transition: all .4s;
     -moz-transition: all .4s;
     -webkit-transition: all .4s;
     -o-transition: all .4s;
-}
 
+}
+/*
 .flandre {
     position: fixed;
     bottom: 0;
     right: 0;
     pointer-events: none;
 }
+ */
