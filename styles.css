@@ -1,15 +1,4 @@
-@media screen and (max-width: 600px) {
-    .flandre {
-        visibility: hidden;
-        display: none;
-    }
-}
-
 @media screen and (max-width: 490px) {
-    .prn {
-        visibility: hidden;
-        display: none;
-    }
 
     header {
         display: inline-block;
@@ -18,13 +7,6 @@
 
     body {
         line-height: 125%;
-    }
-}
-
-@media screen and (max-height: 800px) {
-    .flandre {
-        visibility: hidden;
-        display: none;
     }
 }
 
@@ -63,11 +45,11 @@ header {
 }
 
 .dot {
-    color: honeydew;
+    color: white;
 }
 
 .dotch {
-    background-color: #77cdcd;
+    background-color: #ffffff;
     background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
     background-size: 100%;
     -webkit-background-clip: text;
