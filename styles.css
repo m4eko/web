@@ -31,7 +31,7 @@ body {
 header {
     color: honeydew;
     font-size: 250%;
-    font-family: "Afacad", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     margin-bottom: 0;
     user-select: none;
 }
@@ -68,6 +68,7 @@ header {
 .lh,
 .contact {
     font-size: 100%;
+    font-weight: lighter;
 }
 
 .dd {
