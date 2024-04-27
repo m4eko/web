@@ -74,16 +74,6 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.prn {
-    display: inline-block;
-    font-size: 25%;
-    background-color: #ffffff;
-    background-image: linear-gradient(45deg, #bbbbbb, #818181);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .text {
     font-size: 20px;
 }
@@ -153,13 +143,19 @@ a:visited {
 }
 
 .at {
-    color: #989898;
-    position: relative;
-    top: 2px;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: revert;
+    text-decoration: none;
+    transform: translateY(25%);
 }
 
 .mail:hover {
     text-decoration: underline;
+    color: #a3c0f4;
     transition: all .4s;
     -moz-transition: all .4s;
     -webkit-transition: all .4s;
