@@ -37,73 +37,82 @@ body {
     font-family: "Jost", sans-serif;
     font-size: 140%;
 }
+
 .heart {
-    height: 55px;
+    height: 30px;
     transform: translateY(25%);
     user-select: none;
-
-
+    padding-right: 10px;
+    position: page;
 }
 
 header {
-color: honeydew;
-font-size: 250%;
-font-family: "Afacad", sans-serif;
-margin-bottom: 0;
-user-select: none;
+    color: honeydew;
+    font-size: 250%;
+    font-family: "Afacad", sans-serif;
+    margin-bottom: 0;
+    user-select: none;
 }
 
 .maeko {
-background-color: #bdbdbd;
-background-image: linear-gradient(45deg, #A3C0F4FF, #e8e8e8);
-background-size: 100%;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-color: #bdbdbd;
+    background-image: linear-gradient(45deg, #A3C0F4FF, #e8e8e8);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .dot {
-color: honeydew;
+    color: honeydew;
 }
 
 .dotch {
-background-color: #77cdcd;
-background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
-background-size: 100%;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-color: #77cdcd;
+    background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .prn {
-display: inline-block;
-font-size: 25%;
-background-color: #ffffff;
-background-image: linear-gradient(45deg, #bbbbbb, #818181);
-background-size: 100%;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 25%;
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, #bbbbbb, #818181);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .text {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .flag1 {
-height: 30px;
-transform: translateY(20%);
+    height: 30px;
+    transform: translateY(20%);
 }
 
 .lh,
 .contact {
-font-size: 100%;
+    font-size: 100%;
 }
 
 .dd {
-background-color: #ffffff;
-background-image: linear-gradient(90deg, #7fbdfb, #e780ff);
-background-size: 100%;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-user-select: none;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #7fbdfb, #e780ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+.signl {
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sign {
@@ -111,57 +120,49 @@ user-select: none;
     background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
     background-size: 100%;
     -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-user-select: none;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
 }
 
 a:link {
-text-decoration: none;
-color: honeydew;
+    text-decoration: none;
+    color: honeydew;
 }
 
 .socials a:link {
-text-decoration: none;
-color: honeydew;
+    text-decoration: none;
+    color: honeydew;
 }
 
 a:visited {
-text-decoration: none;
-color: honeydew;
+    text-decoration: none;
+    color: honeydew;
 }
 
 .socials a:hover {
-text-decoration: underline;
-color: #a3c0f4;
-transition: all .4s;
--moz-transition: all .4s;
--webkit-transition: all .4s;
--o-transition: all .4s;
+    text-decoration: underline;
+    color: #a3c0f4;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
 }
 
 .mail {
-color: honeydew;
+    color: honeydew;
 }
 
 .at {
-color: #989898;
-position: relative;
-top: 2px;
+    color: #989898;
+    position: relative;
+    top: 2px;
 }
 
-.mail:hover{
-text-decoration: underline;
-transition: all .4s;
--moz-transition: all .4s;
--webkit-transition: all .4s;
--o-transition: all .4s;
+.mail:hover {
+    text-decoration: underline;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
 
 }
-/*
-.flandre {
-position: fixed;
-bottom: 0;
-right: 0;
-pointer-events: none;
-}
-*/
