@@ -2,7 +2,7 @@
 
     header {
         display: inline-block;
-        max-height: 75px;
+        max-height: 75%;
     }
 
     body {
@@ -23,7 +23,7 @@ body {
 .heart {
     height: 30px;
     transform: translateY(25%);
-    padding-right: 10px;
+    padding-right: 3%;
     position: page;
 }
 
@@ -31,7 +31,6 @@ header {
     color: #ffffff;
     font-size: 250%;
     font-family: "Comfortaa", sans-serif;
-    margin-bottom: 0;
     user-select: none;
 }
 
@@ -56,7 +55,7 @@ header {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 80%;
 }
 
 .flag {
