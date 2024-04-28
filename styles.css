@@ -23,7 +23,7 @@ body {
 .heart {
     height: 30px;
     transform: translateY(25%);
-    padding-right: 3%;
+    padding-right: 10px;
     position: page;
 }
 
