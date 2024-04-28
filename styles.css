@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    color: honeydew;
+    color: #ffffff;
     font-size: 250%;
     font-family: "Comfortaa", sans-serif;
     margin-bottom: 0;
@@ -44,7 +44,7 @@ header {
 }
 
 .dot {
-    color: white;
+    color: #ffffff;
 }
 
 .dotch {
@@ -59,7 +59,7 @@ header {
     font-size: 20px;
 }
 
-.flag1 {
+.flag {
     height: 25px;
     transform: translateY(20%);
 }
@@ -98,17 +98,17 @@ header {
 
 a:link {
     text-decoration: none;
-    color: honeydew;
+    color: #ffffff;
 }
 
 .socials a:link {
     text-decoration: none;
-    color: honeydew;
+    color: #ffffff;
 }
 
 a:visited {
     text-decoration: none;
-    color: honeydew;
+    color: #ffffff;
 }
 
 .socials a:hover {
@@ -121,7 +121,7 @@ a:visited {
 }
 
 .mail {
-    color: honeydew;
+    color: #ffffff;
 }
 
 .at {
