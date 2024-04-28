@@ -23,7 +23,6 @@ body {
 .heart {
     height: 30px;
     transform: translateY(25%);
-    user-select: none;
     padding-right: 10px;
     position: page;
 }
@@ -61,7 +60,7 @@ header {
 }
 
 .flag1 {
-    height: 30px;
+    height: 25px;
     transform: translateY(20%);
 }
 
