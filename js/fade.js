@@ -1,5 +1,4 @@
 function doStuff (callback) {
-    // do all app scripts here...
     callback();
 
 }
