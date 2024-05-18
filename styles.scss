@@ -139,4 +139,12 @@ a {
   font-style: revert;
   text-decoration: none;
   transform: translateY(25%);
+
+  .wh {
+    background-color: $background-color_2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+  }
+
 }
+

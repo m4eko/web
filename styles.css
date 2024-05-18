@@ -144,5 +144,10 @@ a:visited {
   text-decoration: none;
   transform: translateY(25%);
 }
+.at .wh {
+  background-color: #ffffff;
+  background-size: 100%;
+  -webkit-background-clip: text;
+}
 
 /*# sourceMappingURL=styles.css.map */
