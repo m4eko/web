@@ -147,4 +147,19 @@ a {
   }
 
 }
+.status {
+  position: absolute;
+  bottom: 1.5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &:hover {
+    color: #fff73f;
+    text-decoration: underline;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+  }
+}
 

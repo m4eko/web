@@ -150,4 +150,19 @@ a:visited {
   -webkit-background-clip: text;
 }
 
+.status {
+  position: absolute;
+  bottom: 1.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.status:hover {
+  color: #fff73f;
+  text-decoration: underline;
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
 /*# sourceMappingURL=styles.css.map */
