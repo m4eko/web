@@ -3,7 +3,7 @@ $color_2: #a3c0f4;
 $font-family_1: "Jost", sans-serif;
 $font-family_2: "Comfortaa", sans-serif;
 $background-color_1: #bdbdbd;
-$background-color_2: #ffffff;
+
 
 @media screen and (max-width: 490px) {
   header {
@@ -21,7 +21,7 @@ body {
   padding: 5%;
   text-align: left;
   font-family: $font-family_1;
-  font-size: 125%;
+  font-size: 130%;
 }
 .heart {
   height: 30px;
@@ -36,7 +36,7 @@ header {
   user-select: none;
 }
 .maeko {
-  background-color: $background-color_1;
+  background-color: $color_1;
   background-image: linear-gradient(45deg, #d1dfff, #e8e8e8);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -46,7 +46,7 @@ header {
   color: $color_1;
 }
 .dotch {
-  background-color: $background-color_2;
+  background-color: $color_1;
   background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -61,7 +61,7 @@ header {
 .flags {
   height: 25px;
   transform: translateY(25%);
-  margin-right: -0.20%;
+  margin-right: -0.05%;
 }
 .lh {
   font-size: 100%;
@@ -72,7 +72,7 @@ header {
   font-weight: lighter;
 }
 .dd {
-  background-color: $background-color_2;
+  background-color: $color_1;
   background-image: linear-gradient(90deg, #7fbdfb, #e780ff);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -80,7 +80,7 @@ header {
   user-select: none;
 }
 .signl {
-  background-color: $background-color_2;
+  background-color: $color_1;
   background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -91,7 +91,7 @@ header {
   text-decoration-color: red;
 }
 .sign {
-  background-color: $background-color_2;
+  background-color: $color_1;
   background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -136,7 +136,7 @@ a {
   }
 }
 .at {
-  background-color: $background-color_2;
+  background-color: $color_1;
   background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -146,7 +146,7 @@ a {
   transform: translateY(25%);
 
   .wh {
-    background-color: $background-color_2;
+    background-color: $color_1;
     background-size: 100%;
     -webkit-background-clip: text;
   }
