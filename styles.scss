@@ -21,7 +21,7 @@ body {
   padding: 5%;
   text-align: left;
   font-family: $font-family_1;
-  font-size: 140%;
+  font-size: 125%;
 }
 .heart {
   height: 30px;
@@ -61,6 +61,7 @@ header {
 .flags {
   height: 25px;
   transform: translateY(25%);
+  margin-right: -0.20%;
 }
 .lh {
   font-size: 100%;
@@ -86,8 +87,8 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .special {
-  text-underline: $color_1;
-  text-decoration: underline;
+  text-decoration: underline 10%;
+  text-decoration-color: red;
 }
 .sign {
   background-color: $background-color_2;
