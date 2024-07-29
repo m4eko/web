@@ -1,8 +1,10 @@
 $color_1: #ffffff;
-$color_2: #a3c0f4;
+$color_2: #a997df;
+$color_3: #ed254e;
+$color_4: #9df2fb;
 $font-family_1: "Jost", sans-serif;
 $font-family_2: "Comfortaa", sans-serif;
-$background-color_1: #bdbdbd;
+$background-color: #1c1d21;
 
 
 @media screen and (max-width: 490px) {
@@ -15,7 +17,7 @@ $background-color_1: #bdbdbd;
   }
 }
 body {
-  background: #1e1e1e;
+  background: $background-color;
   color: $color_1;
   margin: 10%;
   padding: 5%;
@@ -36,8 +38,7 @@ header {
   user-select: none;
 }
 .maeko {
-  background-color: $color_1;
-  background-image: linear-gradient(45deg, #d1dfff, #e8e8e8);
+  background-image: linear-gradient(190deg, #ffff, #ccc9c9);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,8 +47,7 @@ header {
   color: $color_1;
 }
 .dotch {
-  background-color: $color_1;
-  background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
+  background-image: linear-gradient(#87182e, #ed254e);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,24 +71,25 @@ header {
   font-size: 100%;
   font-weight: lighter;
 }
-.dd {
-  background-color: $color_1;
-  background-image: linear-gradient(90deg, #7fbdfb, #e780ff);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.dd1 {
+  color: $color_2;
   user-select: none;
+  font-size: 120%;
+}
+.dd2 {
+  color: $color_4;
+  user-select: none;
+  font-size: 120%;
 }
 .signl {
-  background-color: $color_1;
-  background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
+  background-image: linear-gradient(90deg,grey, white);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .special {
   text-decoration: underline 10%;
-  text-decoration-color: red;
+  text-decoration-color: $color_3;
 }
 .sign {
   background-color: $color_1;
@@ -128,7 +129,7 @@ a {
   color: $color_1;
   &:hover {
     text-decoration: underline;
-    color: $color_2;
+    color: $color_4;
     transition: all .4s;
     -moz-transition: all .4s;
     -webkit-transition: all .4s;
@@ -152,6 +153,7 @@ a {
   }
 
 }
+
 .status {
   visibility: hidden;
   position: absolute;
@@ -160,7 +162,7 @@ a {
   transform: translateX(-50%);
 
   &:hover {
-    color: #fff73f;
+    color: $color_4;
     text-decoration: underline;
     transition: all .4s;
     -moz-transition: all .4s;
@@ -168,4 +170,5 @@ a {
     -o-transition: all .4s;
   }
 }
+
 

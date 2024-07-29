@@ -8,7 +8,7 @@
   }
 }
 body {
-  background: #1e1e1e;
+  background: #1c1d21;
   color: #ffffff;
   margin: 10%;
   padding: 5%;
@@ -32,8 +32,7 @@ header {
 }
 
 .maeko {
-  background-color: #ffffff;
-  background-image: linear-gradient(45deg, #d1dfff, #e8e8e8);
+  background-image: linear-gradient(190deg, white, #ccc9c9);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,8 +43,7 @@ header {
 }
 
 .dotch {
-  background-color: #ffffff;
-  background-image: linear-gradient(#76aaff, #fa9cff, #a199ff);
+  background-image: linear-gradient(#87182e, #ed254e);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -75,18 +73,20 @@ header {
   font-weight: lighter;
 }
 
-.dd {
-  background-color: #ffffff;
-  background-image: linear-gradient(90deg, #7fbdfb, #e780ff);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.dd1 {
+  color: #a997df;
   user-select: none;
+  font-size: 120%;
+}
+
+.dd2 {
+  color: #9df2fb;
+  user-select: none;
+  font-size: 120%;
 }
 
 .signl {
-  background-color: #ffffff;
-  background-image: linear-gradient(90deg, #a8a8a8, #9a9a9a);
+  background-image: linear-gradient(90deg, grey, white);
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,7 +94,7 @@ header {
 
 .special {
   text-decoration: underline 10%;
-  text-decoration-color: red;
+  text-decoration-color: #ed254e;
 }
 
 .sign {
@@ -121,7 +121,7 @@ a:visited {
 }
 .socials a:hover {
   text-decoration: underline;
-  color: #a3c0f4;
+  color: #a997df;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -133,7 +133,7 @@ a:visited {
 }
 .mail:hover {
   text-decoration: underline;
-  color: #a3c0f4;
+  color: #9df2fb;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -164,7 +164,7 @@ a:visited {
   transform: translateX(-50%);
 }
 .status:hover {
-  color: #fff73f;
+  color: #9df2fb;
   text-decoration: underline;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
