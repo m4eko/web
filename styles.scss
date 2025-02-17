@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 $m-font: 'Dongle', sans-serif;
 
+@media only screen and (max-width: 768px) {
+  body {
+    scale: 0.8;
+  }
+}
+
+
 // color palette :3
 $cadet-gray: #8aabbf;
 $rose: #f42272;
