@@ -5,6 +5,7 @@ $m-font: 'Dongle', sans-serif;
 // color palette :3
 $black: #0e0e0e;
 $pistachio: #c1d37f;
+$cadet-gray: #8aabbf;
 $tea-rose: #efc7c2;
 $neutral: #ffff;
 
@@ -44,7 +45,7 @@ body {
 }
 
 .section-title {
-  color: $pistachio;
+  color: $cadet-gray;
   font-size: 130%;
   margin: 1.5em 0 0.5em 0;
 }
