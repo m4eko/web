@@ -6,7 +6,8 @@ $m-font: 'Dongle', sans-serif;
     scale: 0.8;
   }
   .footer {
-    height: auto;
+    position: relative;
+    bottom: 0;
   }
 }
 
