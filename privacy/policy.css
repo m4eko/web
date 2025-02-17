@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+body {
+  scale: 0.9;
+  background-color: #0e0e0e;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  padding: 0em 0;
+  margin-top: -1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 200%;
+  width: 100%;
+  max-width: 800px;
+}
+
+.privacy-content {
+  max-width: 800px;
+  text-align: left;
+  font-size: 70%;
+  padding: 0 1em;
+}
+
+.section-title {
+  color: #c1d37f;
+  font-size: 130%;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.privacy-text {
+  line-height: 1.5;
+  margin: 0.8em 0;
+}
+.privacy-text a:link {
+  color: #efc7c2;
+}
+.privacy-text a:hover {
+  text-decoration: underline;
+}
+.privacy-text a, .privacy-text a:visited {
+  color: white;
+}
+
+.privacy-list {
+  list-style: none;
+  padding-left: 1.5em;
+}
+.privacy-list li::before {
+  content: "•";
+  color: #efc7c2;
+  font-size: 65%;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/*# sourceMappingURL=policy.css.map */
