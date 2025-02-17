@@ -4,10 +4,11 @@ $m-font: 'Dongle', sans-serif;
 @media only screen and (max-width: 768px) {
   body {
     scale: 0.8;
+    max-height: 1080px;
   }
   .footer {
     position: relative;
-    bottom: 0;
+    bottom: 10%;
   }
 }
 
