@@ -3,7 +3,10 @@ $m-font: 'Dongle', sans-serif;
 
 @media only screen and (max-width: 768px) {
   body {
-    scale: 0.7;
+    scale: 0.8;
+  }
+  .footer {
+    height: auto;
   }
 }
 
