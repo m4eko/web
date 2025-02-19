@@ -11,13 +11,16 @@ $neutral: #ffff;
 $onyx: rgba(62, 62, 62, 0.47);
 
 body {
-  scale: 1.0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: $black;
   margin: 0;
   overflow: hidden;
 }
 
 .center {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,9 +37,11 @@ body {
   text-align: center;
   font-size: 200%;
 }
+
 .boccher {
   pointer-events: none;
 }
+
 .info {
   font-size: 110%;
   margin-bottom: 0.5em;
@@ -78,13 +83,12 @@ body {
   a, a:visited {
     color: $neutral;
   }
-
 }
 
 .pgp {
   color: $rose !important;
-
 }
+
 a.sr::after {
   content: "•";
   color: $tea-rose;
@@ -93,10 +97,9 @@ a.sr::after {
 
 .footer {
   position: absolute;
-  bottom: 2%;
+  bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 1em 0;
   font-family: $m-font;
   font-size: 80%;
 
